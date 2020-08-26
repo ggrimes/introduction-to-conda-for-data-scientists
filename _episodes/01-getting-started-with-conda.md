@@ -161,6 +161,16 @@ such as R, NumPy, SciPy and TensorFlow built using optimised, hardware specific
 libraries (such as Intel's MKL or NVIDIA's CUDA), which provides a speedup
 without having to change any of your code.
 
+## Anaconda on Eddie
+
+https://www.wiki.ed.ac.uk/pages/viewpage.action?spaceKey=ResearchServices&title=Anaconda
+
+
+~~~
+$ module load anaconda
+$ conda config --add envs_dirs /exports/<COLLEGE>/eddie/<SCHOOL>/groups/<GROUP NAME>/anaconda/envs
+~~~
+
 
 {% include links.md %}
 
