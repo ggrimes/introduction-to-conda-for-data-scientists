@@ -98,6 +98,12 @@ channels.
 > (from `defaults`).
 {: .callout}
 
+> ## The `bioconda` channel
+>
+> Another useful channel is  [bioconda](https://bioconda.github.io/) 
+> Bioconda is a channel for the conda package manager specializing in bioinformatics software
+{: .callout}
+
 ## How do I install a package from a specific channel?
 
 You can install a package from a specific channel into the currently activate environment by 
