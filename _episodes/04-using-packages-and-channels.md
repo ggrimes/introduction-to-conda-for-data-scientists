@@ -110,7 +110,7 @@ You can install a package from a specific channel into the currently activate en
 passing the `--channel` option to the `conda install` command as follows.
 
 ~~~
-$ conda install scipy --channel conda-forge
+$ conda install bedtools --channel bioconda
 ~~~
 {: .language-bash}
 
@@ -120,15 +120,15 @@ following command installs the `scipy` package from the `conda-forge` channel in
 called `my-first-env` which we created eariler.
 
 ~~~
-$ conda install scipy --channel conda-forge --name my-first-env
+$ conda install bedtools --channel bioconda --name my-first-env
 ~~~
 {: .language-bash}
 
-This command would install `tensorflow` package from `conda-forge` channel into an environment 
+This command would install `bedtools` package from `bioconda` channel into an environment 
 installed into the `env/` sub-directory.
 
 ~~~
-$ conda install tensorflow --channel conda-forge --prefix ./env
+$ conda install bedtools --channel bioconda --prefix ./env
 ~~~
 {: .language-bash}
 
