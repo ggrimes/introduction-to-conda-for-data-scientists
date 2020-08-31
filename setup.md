@@ -31,10 +31,7 @@ $ conda config --add envs_dirs /exports/<COLLEGE>/eddie/<SCHOOL>/groups/<GROUP N
 
 # Installation Instructions
 
-If you wish to get started with this course without installing Conda, then you can use a 
-pre-configured instance running on [Binder](https://mybinder.org/) by clicking on the link below.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries-incubator/introduction-to-conda-for-data-scientists/binder?urlpath=lab)
+If you wish to install conda on your own machine follow the instructions below .
 
 ## Check to see if Conda is already installed
 
