@@ -5,6 +5,30 @@ permalink: /setup/
 root: ..
 ---
 
+# Conda on Eddie
+
+Log into eddie using your terminal application.
+
+Load the anaconda module
+
+~~~
+module load anaconda/5.0.1
+~~~
+
+WARNING: If you use conda to create environments, your home directory may fill up. 
+Please see our documentation at https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+
+## Create a 'conda' environment
+
+First choose a location to store your conda environment. We recommend using the cluster filesystem (/exports/<COLLEGE>/eddie/...) for this, as the environments can get quite large. If you use your home directory under /home, it could rapidly fill-up and go over quota.
+
+Configure the path for your environments directory, i.e, the directory where all your conda environments will be stored. Note that this should be an existing directory, so you need to create it first if it doesn't already exist, before running the command below.
+
+~~~
+$ module load anaconda
+$ conda config --add envs_dirs /exports/<COLLEGE>/eddie/<SCHOOL>/groups/<GROUP NAME>/anaconda/envs
+~~~
+
 # Installation Instructions
 
 If you wish to get started with this course without installing Conda, then you can use a 
